@@ -1,0 +1,4 @@
+/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/rebuild_cache.dir
+/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/edit_cache.dir
+/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/swordfish.dir
+/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/test_swordfish.dir

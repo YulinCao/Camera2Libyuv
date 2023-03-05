@@ -1,0 +1,37 @@
+CMakeFiles/swordfish.dir/src/ring_queue.c.o: \
+  /home/nvp/Feynman_Project/android/swordfish/src/ring_queue.c \
+  /home/nvp/Feynman_Project/android/swordfish/include/ring_queue.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/stdlib.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/alloca.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/sys/cdefs.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/android/api-level.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/android/versioning.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/wait.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/wait.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/malloc.h \
+  /opt/android/armv7/lib64/clang/7.0.2/include/stddef.h \
+  /opt/android/armv7/lib64/clang/7.0.2/include/__stddef_max_align_t.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/stdio.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/sys/types.h \
+  /opt/android/armv7/lib64/clang/7.0.2/include/stdint.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/stdint.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm/types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm/bitsperlong.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/posix_types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/stddef.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/linux/compiler.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm/posix_types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /opt/android/armv7/lib64/clang/7.0.2/include/stdarg.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/struct_file.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/xlocale.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/string.h \
+  /opt/android/armv7/bin/../sysroot/usr/include/bits/strcasecmp.h

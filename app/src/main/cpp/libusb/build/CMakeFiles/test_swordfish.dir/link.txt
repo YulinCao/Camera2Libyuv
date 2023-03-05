@@ -1,0 +1,1 @@
+/opt/android/armv7/bin/arm-linux-androideabi-clang++ -pthread -DANDROID -O3 -std=c++11 -Wall -Wextra -DUSEDLOPENLIBUSB CMakeFiles/test_swordfish.dir/test_swordfish.cpp.o -o test_swordfish  -Wl,-rpath,/home/nvp/Feynman_Project/android/swordfish/build:/home/nvp/Feynman_Project/android/swordfish libswordfish.so ../libusb1.0.so 

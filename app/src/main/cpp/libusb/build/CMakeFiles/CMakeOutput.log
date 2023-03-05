@@ -1,0 +1,337 @@
+The system is: Linux - 5.3.0-28-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/android/armv7/bin/arm-linux-androideabi-clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/3.20.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/android/armv7/bin/arm-linux-androideabi-clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/3.20.0/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/android/armv7/bin/make -f Makefile cmTC_37a7f/fast && /opt/android/armv7/bin/make  -f CMakeFiles/cmTC_37a7f.dir/build.make CMakeFiles/cmTC_37a7f.dir/build
+make[1]: Entering directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o
+/opt/android/armv7/bin/arm-linux-androideabi-clang   -v -MD -MT CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7a-none-linux-android21
+Thread model: posix
+InstalledDir: /opt/android/armv7/bin
+Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/opt/android/armv7/bin/clang70" -cc1 -triple armv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.gcno -resource-dir /opt/android/armv7/lib64/clang/7.0.2 -dependency-file CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -isysroot /opt/android/armv7/bin/../sysroot -internal-isystem /opt/android/armv7/bin/../sysroot/usr/local/include -internal-isystem /opt/android/armv7/lib64/clang/7.0.2/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/usr/include -fdebug-compilation-dir /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/usr/local/include"
+ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/android/armv7/lib64/clang/7.0.2/include
+ /opt/android/armv7/bin/../sysroot/usr/include
+End of search list.
+Linking C executable cmTC_37a7f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a7f.dir/link.txt --verbose=1
+/opt/android/armv7/bin/arm-linux-androideabi-clang  -v CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -o cmTC_37a7f 
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7a-none-linux-android21
+Thread model: posix
+InstalledDir: /opt/android/armv7/bin
+Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/opt/android/armv7/bin/../sysroot -pie -z relro -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_37a7f /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o -L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib/../lib -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o
+make[1]: Leaving directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/android/armv7/lib64/clang/7.0.2/include]
+    add: [/opt/android/armv7/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/android/armv7/lib64/clang/7.0.2/include] ==> [/opt/android/armv7/lib64/clang/7.0.2/include]
+  collapse include dir [/opt/android/armv7/bin/../sysroot/usr/include] ==> [/opt/android/armv7/sysroot/usr/include]
+  implicit include dirs: [/opt/android/armv7/lib64/clang/7.0.2/include;/opt/android/armv7/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/android/armv7/bin/make -f Makefile cmTC_37a7f/fast && /opt/android/armv7/bin/make  -f CMakeFiles/cmTC_37a7f.dir/build.make CMakeFiles/cmTC_37a7f.dir/build]
+  ignore line: [make[1]: Entering directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/android/armv7/bin/arm-linux-androideabi-clang   -v -MD -MT CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7a-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/android/armv7/bin]
+  ignore line: [Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [ "/opt/android/armv7/bin/clang70" -cc1 -triple armv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.gcno -resource-dir /opt/android/armv7/lib64/clang/7.0.2 -dependency-file CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -isysroot /opt/android/armv7/bin/../sysroot -internal-isystem /opt/android/armv7/bin/../sysroot/usr/local/include -internal-isystem /opt/android/armv7/lib64/clang/7.0.2/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/usr/include -fdebug-compilation-dir /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/android/armv7/lib64/clang/7.0.2/include]
+  ignore line: [ /opt/android/armv7/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_37a7f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a7f.dir/link.txt --verbose=1]
+  ignore line: [/opt/android/armv7/bin/arm-linux-androideabi-clang  -v CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -o cmTC_37a7f ]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7a-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/android/armv7/bin]
+  ignore line: [Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  link line: [ "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/opt/android/armv7/bin/../sysroot -pie -z relro -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_37a7f /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o -L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib/../lib -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o]
+    arg [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/opt/android/armv7/bin/../sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_37a7f] ==> ignore
+    arg [/opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/opt/android/armv7/bin/../sysroot/usr/lib/../lib] ==> dir [/opt/android/armv7/bin/../sysroot/usr/lib/../lib]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/opt/android/armv7/bin/../sysroot/usr/lib] ==> dir [/opt/android/armv7/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_37a7f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm] ==> [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/opt/android/armv7/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/opt/android/armv7/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../sysroot/usr/lib/../lib] ==> [/opt/android/armv7/sysroot/usr/lib]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/opt/android/armv7/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../sysroot/usr/lib] ==> [/opt/android/armv7/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm;/opt/android/armv7/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/opt/android/armv7/arm-linux-androideabi/lib/armv7-a;/opt/android/armv7/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/android/armv7/bin/make -f Makefile cmTC_b15d1/fast && /opt/android/armv7/bin/make  -f CMakeFiles/cmTC_b15d1.dir/build.make CMakeFiles/cmTC_b15d1.dir/build
+make[1]: Entering directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o
+/opt/android/armv7/bin/arm-linux-androideabi-clang++   -v -MD -MT CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7a-none-linux-android21
+Thread model: posix
+InstalledDir: /opt/android/armv7/bin
+Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/opt/android/armv7/bin/clang70++" -cc1 -triple armv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /opt/android/armv7/lib64/clang/7.0.2 -dependency-file CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -isysroot /opt/android/armv7/bin/../sysroot -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/arm-linux-androideabi/c++/4.9.x/armv7-a -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/armv7a-none-linux-android21/c++/4.9.x -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/backward -internal-isystem /opt/android/armv7/bin/../sysroot/usr/local/include -internal-isystem /opt/android/armv7/lib64/clang/7.0.2/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/arm-linux-androideabi/c++/4.9.x/armv7-a"
+ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/armv7a-none-linux-android21/c++/4.9.x"
+ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/backward"
+ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/usr/local/include"
+ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x
+ /opt/android/armv7/lib64/clang/7.0.2/include
+ /opt/android/armv7/bin/../sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_b15d1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b15d1.dir/link.txt --verbose=1
+/opt/android/armv7/bin/arm-linux-androideabi-clang++  -v CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b15d1 
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+Target: armv7a-none-linux-android21
+Thread model: posix
+InstalledDir: /opt/android/armv7/bin
+Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@mthumb
+Candidate multilib: armv7-a;@march=armv7-a
+Candidate multilib: armv7-a/thumb;@march=armv7-a@mthumb
+Candidate multilib: .;
+Selected multilib: armv7-a;@march=armv7-a
+ "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/opt/android/armv7/bin/../sysroot -pie -z relro -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b15d1 /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o -L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib/../lib -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o
+make[1]: Leaving directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x]
+    add: [/opt/android/armv7/lib64/clang/7.0.2/include]
+    add: [/opt/android/armv7/bin/../sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x] ==> [/opt/android/armv7/include/c++/4.9.x]
+  collapse include dir [/opt/android/armv7/lib64/clang/7.0.2/include] ==> [/opt/android/armv7/lib64/clang/7.0.2/include]
+  collapse include dir [/opt/android/armv7/bin/../sysroot/usr/include] ==> [/opt/android/armv7/sysroot/usr/include]
+  implicit include dirs: [/opt/android/armv7/include/c++/4.9.x;/opt/android/armv7/lib64/clang/7.0.2/include;/opt/android/armv7/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/android/armv7/bin/make -f Makefile cmTC_b15d1/fast && /opt/android/armv7/bin/make  -f CMakeFiles/cmTC_b15d1.dir/build.make CMakeFiles/cmTC_b15d1.dir/build]
+  ignore line: [make[1]: Entering directory `/home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/android/armv7/bin/arm-linux-androideabi-clang++   -v -MD -MT CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7a-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/android/armv7/bin]
+  ignore line: [Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [ "/opt/android/armv7/bin/clang70++" -cc1 -triple armv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float-abi -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /opt/android/armv7/lib64/clang/7.0.2 -dependency-file CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o.d -sys-header-deps -MT CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -isysroot /opt/android/armv7/bin/../sysroot -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/arm-linux-androideabi/c++/4.9.x/armv7-a -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/armv7a-none-linux-android21/c++/4.9.x -internal-isystem /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/backward -internal-isystem /opt/android/armv7/bin/../sysroot/usr/local/include -internal-isystem /opt/android/armv7/lib64/clang/7.0.2/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/include -internal-externc-isystem /opt/android/armv7/bin/../sysroot/usr/include -fdeprecated-macro -fdebug-compilation-dir /home/nvp/Feynman_Project/android/swordfish/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 7.0.2 based upon LLVM 7.0.2svn default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/arm-linux-androideabi/c++/4.9.x/armv7-a"]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/armv7a-none-linux-android21/c++/4.9.x"]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/backward"]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/android/armv7/bin/../sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x]
+  ignore line: [ /opt/android/armv7/lib64/clang/7.0.2/include]
+  ignore line: [ /opt/android/armv7/bin/../sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_b15d1]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b15d1.dir/link.txt --verbose=1]
+  ignore line: [/opt/android/armv7/bin/arm-linux-androideabi-clang++  -v CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b15d1 ]
+  ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
+  ignore line: [Target: armv7a-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/android/armv7/bin]
+  ignore line: [Found candidate GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Selected GCC installation: /opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Candidate multilib: thumb]
+  ignore line: [@mthumb]
+  ignore line: [Candidate multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  ignore line: [Candidate multilib: armv7-a/thumb]
+  ignore line: [@march=armv7-a@mthumb]
+  ignore line: [Candidate multilib: .]
+  ignore line: []
+  ignore line: [Selected multilib: armv7-a]
+  ignore line: [@march=armv7-a]
+  link line: [ "/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/opt/android/armv7/bin/../sysroot -pie -z relro -X --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b15d1 /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o -L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib/../lib -L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/opt/android/armv7/bin/../sysroot/usr/lib CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o]
+    arg [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
+    arg [--sysroot=/opt/android/armv7/bin/../sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-X] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b15d1] ==> ignore
+    arg [/opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm] ==> dir [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a]
+    arg [-L/opt/android/armv7/bin/../sysroot/usr/lib/../lib] ==> dir [/opt/android/armv7/bin/../sysroot/usr/lib/../lib]
+    arg [-L/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/opt/android/armv7/bin/../sysroot/usr/lib] ==> dir [/opt/android/armv7/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_b15d1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/opt/android/armv7/bin/../sysroot/usr/lib/../lib/crtend_android.o] ==> ignore
+  collapse library dir [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm] ==> [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/opt/android/armv7/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a] ==> [/opt/android/armv7/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../sysroot/usr/lib/../lib] ==> [/opt/android/armv7/sysroot/usr/lib]
+  collapse library dir [/opt/android/armv7/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/opt/android/armv7/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/opt/android/armv7/bin/../sysroot/usr/lib] ==> [/opt/android/armv7/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [/opt/android/armv7/lib64/clang/7.0.2/lib/linux/arm;/opt/android/armv7/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/opt/android/armv7/arm-linux-androideabi/lib/armv7-a;/opt/android/armv7/sysroot/usr/lib]
+  implicit fwks: []
+
+
