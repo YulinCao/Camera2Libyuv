@@ -19,63 +19,17 @@ cmake_minimum_required(VERSION 3.4.1)
 
 include_directories(${CMAKE_SOURCE_DIR}/libyuv/include)
 
-include_directories(${CMAKE_SOURCE_DIR}/libusb/include)
-
 find_library(log-lib log)
 
-#add_library(
-#        NativeUtils
-#        SHARED
-#        native.cpp
-#        native_utils.cpp
-#)
-#target_link_libraries(NativeUtils ${log-lib})
-#
-#add_library(opencv3 SHARED IMPORTED)
-#set_target_properties(
-#        opencv3
-#        PROPERTIES
-#        IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libopencv_java3.so
-#)
-#
-#add_library(
-#        OpencvUtils
-#        SHARED
-#        opencv.cpp
-#        opencv_utils.cpp
-#)
-#target_link_libraries(OpencvUtils opencv3 ${log-lib})
-#
-#add_library(libyuv SHARED IMPORTED)
-#set_target_properties(
-#        libyuv
-#        PROPERTIES IMPORTED_LOCATION
-#        ${CMAKE_SOURCE_DIR}/../jniLibs/${ANDROID_ABI}/libyuv.so
-#)
-
-include_directories(./ ./libyuv ./libusb)
+include_directories(./ ./libyuv)
 
 add_subdirectory(libyuv)
-
-add_subdirectory(libusb)
 
 add_library(
         YuvUtils
         SHARED
         libyuv.cpp
         libyuv_utils.cpp
-#        libusb.cpp
-#        libyuv_utils.cpp
 )
 
 target_link_libraries(YuvUtils yuv ${log-lib})
-
-
-add_library(
-        UsbUtils
-        SHARED
-        libusb.cpp
-        libusb_utils.cpp
-)
-
-target_link_libraries(UsbUtils swordfish ${log-lib})

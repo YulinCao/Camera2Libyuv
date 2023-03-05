@@ -29,7 +29,6 @@ import android.view.Surface;
 
 import androidx.core.app.ActivityCompat;
 
-import com.cyl.camera2libyuv.utils.LibusbUtils;
 import com.cyl.camera2libyuv.utils.LibyuvUtils;
 
 import java.io.ByteArrayOutputStream;
