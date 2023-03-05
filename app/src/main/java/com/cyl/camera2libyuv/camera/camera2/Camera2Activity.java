@@ -133,7 +133,6 @@ public class Camera2Activity extends Activity {
         String pathResult = Environment.getExternalStorageDirectory().getPath().toString() + "/result.log";
 
         Log.d(TAG,pathResult);
-        LibusbUtils.init(path);
     }
 
     public void releaseCamera() {
@@ -578,8 +577,6 @@ public class Camera2Activity extends Activity {
                         dst = new byte[size *3/2];
                     System.arraycopy(d_y, 0, dst, 0, size);
                     System.arraycopy(d_u, 0, dst, size, size/2 -1);
-
-                    LibusbUtils.sendData(dst, dst.length);
 
                 }
 
